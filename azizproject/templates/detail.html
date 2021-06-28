@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+{% block content %}
+    <div class="card-group">
+        <div class="card">
+       
+            <div class="card-body">
+                <p class="card-text">{{ profile.first_name }}</p>
+                <p class="card-text"><small class="text-muted">{{ profile.birth_date }}</small></p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
